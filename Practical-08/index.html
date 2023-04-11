@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> </title>
+  </head>
+  <body>
+    <div style="padding-top: 100px">
+      <form action="" method="">
+        <fieldset>
+          <legend>Basic Information</legend>
+          <label for="name">Full Name : </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+            required
+          />
+          <br /><br />
+          <lable for="bdate">Birth date : </lable>
+          <input type="date" id="bdate" name="bdate" required />
+          <br /><br />
+          <label for="gender">Gender : </label>
+          <input type="radio" name="gender" value="male" />
+          <lable for="male">Male</lable>
+          <input type="radio" name="gender" value="female" />
+          <label for="female">Female</label>
+          <br /><br />
+          <label for="address">Address: </label>
+          <input
+            type="text"
+            id="adress"
+            placeholder="Enter Your Adress"
+            required
+          />
+          <br /><br />
+          <label for="phoneNumber">Phone Numeber : </label>
+          <input
+            type="tel"
+            name="phoneNumber"
+            placeholder="Enter Your phoneNumber"
+            required
+          />
+          <br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Extra Information</legend>
+          <label for="interest">Interests : </label>
+          <input type="checkbox" name="interest" value="books" />
+          <label for="books">Books</label>
+          <input type="checkbox" name="interest" value="books" />
+          <label for="movies">Movies</label>
+          <label for="videogames">Video Games</label>
+          <input type="checkbox" name="interest" value="books" />
+          <br /><br />
+          <label for="favcolor">Favourite Color : </label>
+          <input type="color" id="favcolor" name="favcolor" />
+          <br /><br />
+        </fieldset>
+        <input type="submit" value="Send Data" />
+        <input type="reset" values="Reset" />
+      </form>
+    </div>
+  </body>
+</html>
