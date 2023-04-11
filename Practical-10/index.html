@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Using Differnt html Tags</title>
+  </head>
+  <body>
+    <header>
+      <h2>Header</h2>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <h2>Article</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+        perspiciatis tempore perferendis in magni maxime provident vero, quia,
+        delectus accusantium illum. Laborum, ipsam?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam sequi
+        voluptatem incidunt reprehenderit officia, vitae distinctio accusamus
+        blanditiis quam excepturi quo.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
+        maxime dolorem laboriosam libero quisquam labore repudiandae doloribus
+        exercitationem inventore.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam illo
+        fugiat assumenda quisquam incidunt ipsa minima, dolores facilis et culpa
+        eaque deserunt veritatis ducimus accusamus.
+      </p>
+    </article>
+
+    <embed
+      src="https://www.youtube.com/embed/RJBsazucggc"
+      width="560"
+      height="300"
+      type=""
+    />
+
+    <video width="300" height="200" controls>
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.ogg"
+        type="video/ogg"
+      />
+      Video tag not supported
+    </video>
+
+    <audio controls>
+      <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg" />
+      <source
+        src="https://www.w3schools.com/html/horse.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <br><br>
+
+    <label for="ice-cream-choice">Choose a flavor :</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+    
+    <datalist id="ice-cream-flavors">
+        <option value="Chocolate">
+        <option value="Coconut">
+        <option value="Mint">
+        <option value="Strawberry">
+        <option value="Vanilla">
+    </datalist>
+
+<br><br>
+
+    <bdi>Hello,<span dir="ltr">Yes</span> World!</bdi>
+<br><br>
+    <output for="x"></output>
+    <input type="range" id="x" name="x" min="0" max="100" oninput="output.value = x.value;">
+    <footer>
+        <h3>Footer</h3>
+        <p>&copy; 2023 Knockcat All rights reserved.</p>
+    </footer>
+  </body>
+</html>
