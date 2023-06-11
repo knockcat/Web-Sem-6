@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <form action="#" onsubmit="show()">
+            <label for="name">Name : </label>
+            <input type="text" name="name" id = "name" 
+            pattern="^[A-Za-z' 'A-Za-z]{6,}">
+
+            <label for="pass">Password</label>
+            <input type="pass" name="pass" id="pass" pattern=".{6,}" required><br>
+
+            <label for="email">Email</label>
+            <input type="text" name = "email" id = "email" pattern="[A-Za-z0-9]*[@][A-Za-z]*[.][A-Za-z]*"><br>
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+    <script>
+        function show()
+        {
+            alert("Form Submitted Successfully");
+        }
+    </script>
+
+</body>
+</html>
